@@ -7,8 +7,7 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  background-color: #2b2b2b;
-  color : #a9b7c6;
+  color: #868e96;
 }
 
 @media (min-width: 992px) {
@@ -27,7 +26,7 @@ h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
-  color: #a9b7c6;
+  color: #343a40;
 }
 
 h1 {
@@ -145,9 +144,6 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (min-width: 768px) {
-  section.resume-section {
-    /*min-height: 100vh;*/
-  }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
@@ -161,17 +157,28 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #214283 !important;
+  background-color: #00007e !important;
 }
 
 .text-primary {
-  color: #005cbf  !important;
+  color: #4242c8 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #4242c8;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #2E2E8C;
+}
+
+.projet{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  border: 2px solid #4e555b;
+}
+
+.projet:hover{
+border-radius: 30px;
 }
