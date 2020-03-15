@@ -11,7 +11,7 @@ section.resume-section {
 }
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 30vh;
     .resume-item {
       .resume-date {
         min-width: 18rem;
@@ -25,3 +25,16 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+.projet{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  border: 2px solid #4e555b;
+
+  &:hover{
+    -webkit-box-shadow: 5px 5px 10px 8px rgba(20,28,140,1);
+    -moz-box-shadow: 5px 5px 10px 8px rgba(20,28,140,1);
+    box-shadow: 5px 5px 10px 8px rgba(20,28,140,1);
+  }
+}
+
