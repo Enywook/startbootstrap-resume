@@ -164,6 +164,7 @@ section.resume-section .resume-item .resume-date {
   height: 200px;
   border-radius: 25px;
   border: 2px solid #4e555b;
+  margin-right: 80px;
 }
 
 .projet:hover {
